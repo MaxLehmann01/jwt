@@ -21,3 +21,8 @@
 > - Is Refresh-Token set?
 > - Yes: GET new Access-Token and Access Data again
 > - No: Redirect to SignIn Route
+
+# Generate Secrets
+> Open Console
+> "node"
+> "require ('crypto').randomBytes(64).toString('hex')"
