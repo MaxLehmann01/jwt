@@ -23,6 +23,6 @@
 > - No: Redirect to SignIn Route
 
 # Generate Secrets
-> Open Console
-> "node"
-> "require ('crypto').randomBytes(64).toString('hex')"
+> - Open Console
+> - "node"
+> - "require ('crypto').randomBytes(64).toString('hex')"
